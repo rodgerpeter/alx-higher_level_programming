@@ -1,8 +1,4 @@
 #!/usr/bin/python3
 
-
-def raise_exception():
-    """
-    raise a type exception
-    """
-    raise TypeError("Error Occured")
+def raise_exception_msg(message=""):
+    raise NameError(message)
